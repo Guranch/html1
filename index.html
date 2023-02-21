@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <header class="header-container">
+      <a class="header-title class">Brit<span class="lex">lex</span></a >
+      <nav class="nav">
+        <ul class="nav-menu-list">
+          <li class="nav-menu-item"><a href="" class="nav-menu-item-link link">Home</a></li>
+          <li class="nav-menu-item"><a href="" сlass="nav-menu-item-link link">Skills</a></li>
+          <li class="nav-menu-item"><a href="" class="nav-menu-item-link link">About Us</a></li>
+          <li class="nav-menu-item"><a href="" class="nav-menu-item-link link">Pricing</a></li>
+          <li class="nav-menu-item"><a href="" class="nav-menu-item-link link">Contacts</a></li>
+        </ul>
+        <a href="" class="a-btn link">Let’s Talk</a>
+      </nav>
+      <button class="btn-head" type="button" data-modal-open >
+        <svg class="btn-head-svg" width="34px" height="20px" >
+          <use href="./img/burger.svg#icon-burger-menu"></use>
+        </svg>
+      </button >
+    </header>
+    <main>
+      <section class="main-head">
+      <div class="div-main-head">
+        <div class="wow bounceInUp animate__animated animate__bounce">
+        <picture>
+            <source srcset="./img/learning-languages-3201x.jpg 1x,./img/learning-languages-3202x.jpg 2x" media="(max-width:574px)">
+            <source srcset="./img/learning-languages-5751x.jpg 1x,./img/learning-languages-5752x.jpg 2x" media="(min-width:575px) and (max-width:767px)">
+            <source srcset="./img/learning-languages-7681x.jpg 1x,./img/learning-languages-7682x.jpg 2x" media="(min-width:768px) and (max-width:991px)">
+            <source srcset="./img/learning-languages-9921x.jpg 1x,./img/learning-languages-9922x.jpg 2x" media="(min-width:992px) and (max-width:1599px)">
+            <source srcset="./img/learning-languages-16001x.jpg 1x,./img/learning-languages-16002px.jpg 2x" media="(min-width:1600px)">
+            <img src="./img/learning-languages-3201x.jpg" alt="flex">
+        </picture>
+      </div>
+        <div class="div-main-text">
+          <h1 class="head-title">
+            <span><span>Learn</span> Any</span> Foreign Language
+          </h1>
+          <p>
+            With our teachers who write a program for each student, you will
+            be able to make your first sketch after the first lesson.
+          </p>
+          <button class="btn-main-head" type="button">Get started</button>
+        </div>
+        </div>
+      </section>
+    </main>
+    <div class="modal visually-hidden" data-modal >
+      <button class="btn-modal btn-modal-head" data-modal-close >
+        <svg  class=" btn-head-svg-modal "><use href="./img/end.svg#icon-Vector"></use></svg>
+      </button>
+      <a href="" class="header-title-modal">Brit<span class="lex">lex</span></a >
+      <nav class="nav-modal">
+        <ul class="nav-menu-modal-list">
+          <li class="nav-menu-modal-item"><a href="" class="link modal-nav-menu-item-link">Home</a></li>
+          <li class="nav-menu-modal-item"><a href="" class="link modal-nav-menu-item-link">Skills</a></li>
+          <li class="nav-menu-modal-item"><a href="" class="link modal-nav-menu-item-link">About Us</a></li>
+          <li class="nav-menu-modal-item"><a href="" class="link modal-nav-menu-item-link">Pricing</a></li>
+          <li class="nav-menu-modal-item"><a href="" class="link modal-nav-menu-item-link">Contacts</a></li>
+        </ul>
+        <a href="" class="a-btn-modal link">Let’s Talk</a>
+      </nav>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+  </body>
+</html>
